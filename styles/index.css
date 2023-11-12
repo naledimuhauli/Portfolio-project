@@ -43,9 +43,31 @@ p {
   font-family: "Poppins", sans-serif;
   line-height: 2;
 }
+.about-section h1{
+  font-size: 64px;
+  line-height: 1;
+}
+.about-section h2{
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
 .contact-link a {
   color: white;
   background-color: #6c63ff;
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-section{
+  padding: 160px 20px;
+}
+.about-section-content{
+  margin: 30px;
+}
+.project-link a {
+  color: rgb(129, 47, 47);
+  background-color: #161627;
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 18px;
@@ -70,6 +92,10 @@ p {
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 50px;
+  }
+  .about-section{
+    text-align: center;
+    padding: 0;
   }
   .project-description h2 {
     font-size: 32px;
