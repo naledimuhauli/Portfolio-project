@@ -65,6 +65,14 @@ p {
 .about-section-content{
   margin: 30px;
 }
+.about-section-content h3{
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.about-section-content p{
+  font-size: 14px;
+}
 .project-link a {
   color: rgb(129, 47, 47);
   background-color: #161627;
