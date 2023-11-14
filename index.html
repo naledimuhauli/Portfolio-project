@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Siphokazi`s Portfolio</title>
+    <meta name="description" content="Patricia is a Front-end engineer based in Portugal" />
+    <title>Patricia`s Portfolio</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -37,20 +38,20 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
-        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="" />
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="Patricia`s logo" />
+        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Patricia`s logo" />
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Patricia">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Patricia`s work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Patricia">Contact</a>
           </li>
         </ul>
       </nav>
@@ -60,16 +61,17 @@
       <h1 class="name">Patricia Pereira</h1>
       <h2 class="mb-5">Front-end Developer, based in Portugal</h2>
       <div class="contact-link">
-        <a href="#" class="btn btn-button">Contact Me</a>
+        <a href="/contact.html" class="btn btn-button" title="Contact Patricia">Contact Me</a>
       </div>
     </div>
     <p class="text-center m-5">
       Featured Project which my best projects be choice to show
     </p>
-    <div class="container about-container">
+    <div class="container">
+      <div class="about-container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" />
+          <img src="images/yogurt.png" class="img-fluid" alt="Yogurt Project preview"/>
         </div>
         <div class="col">
           <div class="project-description">
@@ -80,7 +82,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -94,16 +96,16 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" />
+          <img src="images/weather.png" class="img-fluid" alt="Weather App preview"/>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" />
+          <img src="images/dictionary.png" class="img-fluid" alt="Dictionary App preview"/>
         </div>
         <div class="col">
           <div class="project-description">
@@ -114,9 +116,10 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
+      </div>
       </div>
       <footer>
       <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
@@ -124,8 +127,8 @@
         <h4>Work Inquiry</h4>
         <p class="text-muted">Lets work together</p>
        </div>
-      <div class="email-me">
-      <a href="" class="btn btn-button">Contact Me</a>
+      <div class="contact-link">
+      <a href="/contact.html" class="btn btn-button" title="Contact Patricia">Contact Me</a>
       </div>
       </div>
       <div class="d-flex justify-content-center mb-5">
@@ -135,19 +138,23 @@
       </div>
       <div class="social-links d-flex justify-content-center mb-5">
         <a href="https://www.github.com/siphokazi" 
-        target="_blank">
+        target="_blank" title="Github profile">
        <i class="fab fa-github" aria-hidden="true"></i>
       </a>
       <a href="https://www.instagram.com/siphokazi" 
-        target="_blank">
+        target="_blank" title="instagram profile">
        <i class="fab fa-instagram" aria-hidden="true"></i>
       </a>
       <a href="https://www.twitter.com/siphokazi" 
-        target="_blank">
+        target="_blank" title="Twitter profile">
        <i class="fab fa-twitter" aria-hidden="true"></i>
       </a>
       </div>
     </footer>
     </div>
+    <p class="text-center mt-3">
+      This project was coded by Siphokazi Muhauli, and it is 
+      <a href="https://github.com/naledimuhauli/Portfolio-project/tree/main" target="_blank"> open-sourced</a>
+    </p>
   </body>
 </html>

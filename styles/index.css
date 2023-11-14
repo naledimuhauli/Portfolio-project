@@ -1,28 +1,35 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --default-font: "Poppins", sans-serif;
+  --primary-font: "Playfair Display", serif;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 .hero {
   font-family: "Playfair Display", serif;
   text-align: center;
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   padding: 160px 20px;
 }
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
 }
 .project-description h2 {
   font-size: 60px;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px;
 }
 .hero p {
   color: #272142;
@@ -40,7 +47,7 @@ p {
   font-size: 24px;
   color: #272142;
   font-weight: normal;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   line-height: 2;
 }
 .about-section h1{
@@ -49,19 +56,28 @@ p {
 }
 .about-section h2{
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 .contact-link a {
   color: white;
-  background-color: #6c63ff;
+  background-color: var(--primary-color);
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 18px;
   line-height: 27px;
 }
+.contact-link a:hover {
+  color: var(--primary-color);
+  background-color: white;
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid var(--primary-color);
+}
   
 .about-section{
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .about-section-content{
   margin: 30px;
@@ -76,7 +92,7 @@ p {
 }
 #click-button {
   color: white;
-  background-color: #6c63ff;
+  background-color: var(--primary-color);
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 18px;
@@ -84,15 +100,15 @@ p {
 }
 .about-container a {
   border-radius: 4px;
-  border: 1px solid #6c63ff;
+  border: 1px solid var(--primary-color);
   padding: 18px 30px;
   font-size: 20px;
   line-height: 27px;
-  color: #6c63ff;
+  color: var(--primary-color);
 }
 .about-container a:hover {
   border-radius: 4px;
-  border: 1px solid #6c63ff;
+  border: 1px solid var(--primary-color);
   padding: 18px 30px;
   font-size: 20px;
   line-height: 27px;
@@ -118,7 +134,7 @@ nav a{
 }
 
 nav a:hover, nav li.active a {
-  color: #6c63ff;
+  color: var(--primary-color);
 }
 
 footer {
@@ -126,11 +142,11 @@ footer {
 }
 footer h4 {
   font-size: 48px;
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
 }
 
 footer .contact-box {
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -140,34 +156,34 @@ footer .email-link {
   color: black;
   font-size: 24px;
   border: white;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 
 footer .email-link:hover {
-  color: #6c63ff;
+  color: var(--primary-color);
   font-size: 24px;
   border: white;
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: #6c63ff;
+  color: var(--primary-color);
   font-size: 18px;
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
-  border: #f9f7fe;
+  border: var(--secondary-color);
 }
 footer .social-links a:hover {
   margin: 0 20px;
   color: white;
   font-size: 18px;
-  background-color: #6c63ff;
+  background-color: var(--primary-color);
   padding: 10px 14px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
-  border: #6c63ff;
+  border: var(--primary-color);
 }
 
 @media (max-width: 900px) {
